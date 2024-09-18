@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testCases.Laboratory_SamplePendingPageTest"/>
+      <class name="testCases.Service_doctor"/>
+      <class name="testCases.Service_speciality"/>
+      <class name="testCases.Radiology_radiologist"/>
+      <class name="testCases.Laboratory_DashboardTest"/>
+      <class name="testCases.Ward_AdmissionTest"/>
+      <class name="testCases.ScheduleTypeTest"/>
+      <class name="testCases.Inventory_dashboard"/>
+      <class name="Singer.Singer.AppTest"/>
+      <class name="testCases.Inventory_product"/>
+      <class name="testCases.Inventry_TransferTest"/>
+      <class name="testCases.Ward_AdmissionSearchTest"/>
+      <class name="testCases.AddQueueTest"/>
+      <class name="testCases.Service_type"/>
+      <class name="testCases.Radiology_examinationRequest"/>
+      <class name="testCases.Radiology_settings_category"/>
+      <class name="testCases.Radiology_radiographic_view"/>
+      <class name="testCases.Billing_BillingReportsTest"/>
+      <class name="testCases.Laboratary_ReportPendingTest"/>
+      <class name="testCases.Inventory_productAvailability"/>
+      <class name="testCases.Laboratory_AnalyzerManagerTest"/>
+      <class name="testCases.DiagnosisTreatmentTest"/>
+      <class name="testCases.Radiology_examRoom"/>
+      <class name="testCases.Billing_RefundTest"/>
+      <class name="testCases.Billing_ReturnProductTest"/>
+      <class name="testCases.Billing_settlePaymentfromBillRequestTest"/>
+      <class name="testCases.SymptomReferenceTest"/>
+      <class name="testCases.Billing_CreditpaymentTest"/>
+      <class name="testCases.Laboratory_LabTestManagerTest"/>
+      <class name="testCases.ComplaintsTest"/>
+      <class name="testCases.CreateCaseTest"/>
+      <class name="testCases.Expense_Transaction"/>
+      <class name="testCases.Billing_StockBalancingTest"/>
+      <class name="testCases.AllergyManagementTest"/>
+      <class name="baseClasses.Laboratory_MenuClass"/>
+      <class name="testCases.Service_category"/>
+      <class name="testCases.DifferentialDiagnosisReferenceTest"/>
+      <class name="testCases.SendSMSTest"/>
+      <class name="pageClasses.Laboratory_ResultPendingPage"/>
+      <class name="testCases.Service_management"/>
+      <class name="testCases.Service_subdepartment"/>
+      <class name="testCases.Laboratory_ResultPendingTest"/>
+      <class name="testCases.Billing_BillingProductbillsettlement"/>
+      <class name="testCases.Billing_ProductAvilabilityTest"/>
+      <class name="testCases.RegistrationTest"/>
+      <class name="testCases.Billing_AddBillItemandSettle"/>
+      <class name="testCases.Laboratory_CurrentLabOrdersTest"/>
+      <class name="testCases.Inventory_manufacturer"/>
+      <class name="testCases.DiagnosisTypeTest"/>
+      <class name="testCases.RegisterPatientandClientTest"/>
+      <class name="testCases.AddNewEventTest"/>
+      <class name="testCases.Laboratory_NewLabTestTest"/>
+      <class name="testCases.Laboratory_LaboratoryManagerTest"/>
+      <class name="testCases.Expense_management"/>
+      <class name="testCases.Inventory_supplier"/>
+      <class name="testCases.Inventory_grn"/>
+      <class name="testCases.Service_department"/>
+      <class name="pageClasses.Laboratory_LabTestManagerPage"/>
+      <class name="testCases.AddNewanimalSpeciesTest"/>
+      <class name="testCases.BreedPageTest"/>
+      <class name="testCases.Billing_AdvancePamentTest"/>
+      <class name="testCases.Expense_cashbook"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
